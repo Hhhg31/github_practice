@@ -1,0 +1,32 @@
+.triangle {
+  width: 22;
+  height: 22;
+}
+
+/* 1. 위쪽 삼각형 */
+.triangle-up {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+}
+
+/* 2. 아래쪽 삼각형 */
+.triangle-down {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid blue;
+}
+
+/* 3. 왼쪽 삼각형 */
+.triangle-left {
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-right: 100px solid green;
+}
+
+/* 4. 오른쪽 삼각형 */
+.triangle-right {
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 100px solid orange;
+}
